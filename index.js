@@ -13,9 +13,9 @@ app.use('/public', express.static(__dirname + '/public'));
 var mysql = require('mysql');
 var pool = mysql.createPool({
 	host            : 'classmysql.engr.oregonstate.edu',
-	user            : 'cs340_hennigam',
-	password        : '0958',
-	database        : 'cs340_hennigam',
+	user            : 'cs340_munizd',
+	password        : '936Laley!',
+	database        : 'cs340_munizd',
 });
 
 app.engine('handlebars', handlebars.engine);
